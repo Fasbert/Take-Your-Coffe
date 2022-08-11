@@ -25,7 +25,7 @@ h1{
 /* HEADER */
 header{
     height: 70vh;
-    background: url(img/hero-bg.jpg) no-repeat  center;
+    background: url(/img/hero-bg.jpg) no-repeat  center;
     background-size: cover;
     position: relative;
     
@@ -76,7 +76,6 @@ header .inner-container{
 }
 /* CONTENT */
 .content{
-    background: url(/img/hero-bg.jpg) no-repeat  center;
     padding: 0 5rem;
     color: var(--main-text-color);
     font-size: 18px;
