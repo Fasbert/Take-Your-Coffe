@@ -25,7 +25,7 @@ h1{
 /* HEADER */
 header{
     height: 70vh;
-    background: url(img/hero-bg.jpg);
+    background-image: url(../img/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -78,7 +78,7 @@ header .inner-container{
 }
 /* CONTENT */
 .content{
-    padding: 0 5rem;
+    padding: 3rem 5rem;
     color: var(--main-text-color);
     font-size: 18px;
 }
@@ -86,11 +86,11 @@ header .inner-container{
 /* FOOTER */
 footer{
     position: fixed;
-    padding: 1rem;
+    padding: 2rem;
     bottom: 0;
     width: 100%;
-    min-height: 5rem;
-    background-color: var(--main-bg-color);
+    min-height: 7rem;
+    background-color: rgb(10, 6, 0);
 }
 footer h5{
     color: var(--special-text-color);
