@@ -107,7 +107,6 @@ header .inner-container{
     content: "";
     border-top: .15rem solid var(--special-text-color);
     width: 8rem;
-    margin: 0 1rem;
     transform: translateY(-1rem);
 }
 .content-list{
