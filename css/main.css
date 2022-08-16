@@ -139,11 +139,18 @@ footer{
     width: 100%;
     min-height: 7rem;
     background-color: rgb(10, 6, 0);
+    display: flex;
+    justify-content: flex-end;
 }
 footer h5{
     color: var(--special-text-color);
     font-weight: 400;
     text-transform: uppercase;
+    line-height: 1.5rem;
+}
+footer a{
+    text-decoration: none;
+    margin: 1rem;
 }
 
 /* PHONES */
