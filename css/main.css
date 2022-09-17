@@ -124,14 +124,25 @@ header .inner-container{
     border: 4px solid var(--special-text-color);
     transition: border .3s;
 }
-.list-element img{
-    height: 300px;
-}
 .list-element h3{
     color: var(--header-text-color);
     text-transform: uppercase;
     margin: 1rem;
+    transition: color .2s;
 }
+.list-element:hover h3{
+    color: var(--special-text-color);
+    transition: color .3s;
+}
+.list-element img{
+    height: 300px;
+}
+
+/* COFFEE CONTENT PAGE*/
+.coffee-header{
+    
+}
+
 /* FOOTER */
 footer{
     padding: 2rem;
