@@ -39,3 +39,18 @@ element_espresso.addEventListener('click', () =>{
 close_espresso.addEventListener('click', () =>{
     modal_espresso.classList.remove('show');
 })
+
+// 
+const element_cappuccino = document.getElementById('element-cappuccino');
+const modal_cappuccino = document.getElementById('modal-cappuccino');
+const close_cappuccino = document.getElementById('close-cappuccino');
+
+element_cappuccino.addEventListener('click', () =>{
+    modal_cappuccino.classList.add('show');
+})
+
+close_cappuccino.addEventListener('click', () =>{
+    modal_cappuccino.classList.remove('show');
+})
+
+// 
