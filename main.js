@@ -54,3 +54,16 @@ close_cappuccino.addEventListener('click', () =>{
 })
 
 // 
+const element_latte = document.getElementById('element-latte');
+const modal_latte = document.getElementById('modal-latte');
+const close_latte = document.getElementById('close-latte');
+
+element_latte.addEventListener('click', () =>{
+    modal_latte.classList.add('show');
+})
+
+close_latte.addEventListener('click', () =>{
+    modal_latte.classList.remove('show');
+})
+
+// 
