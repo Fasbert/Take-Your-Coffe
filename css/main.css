@@ -6,6 +6,9 @@
     --special-text-color: rgb(199, 161, 122);
     --main-text-color: rgb(172, 172, 172);
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
